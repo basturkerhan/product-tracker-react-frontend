@@ -1,0 +1,22 @@
+.not-found-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e7a6ac;
+    flex-direction: column;
+
+    h1 {
+        font-size: 3rem;
+        color: rgba(0,0,0,0.6);
+        font-weight: 700;
+    }
+
+    h2 {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color: rgba(0,0,0,0.6);
+        font-weight: 500;
+        cursor: pointer;
+    }
+}

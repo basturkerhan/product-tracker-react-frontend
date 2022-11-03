@@ -1,0 +1,24 @@
+$background: #eee;
+
+#login-page {
+    height: 100vh;
+    background-color: $background !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-form {
+    padding: 5rem;
+    background-color: #fdfdfd;
+    border: none;
+    border-radius: 1rem;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border: none;
+    border-radius: 1.5rem;
+}

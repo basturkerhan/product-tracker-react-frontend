@@ -1,0 +1,10 @@
+import './login.scss';
+import './app.scss';
+import './navbar.scss';
+import './sidebar.scss';
+import './page.scss';
+import './productDetails.scss';
+import './searchProduct.scss';
+import './backPageHeader.scss';
+import './loading.scss';
+import './notFoundPage.scss';

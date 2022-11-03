@@ -1,0 +1,89 @@
+$navyColor: #112d4e;
+$blueColor: #3f72af;
+$navbarButtonColor: #afb4b8;
+$navbarColor: #e5f7ef;
+
+#navbar,
+#mobile-navbar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding: 0.5rem;
+}
+
+#navbar {
+  background-color: $navbarColor;
+  top: 0;
+
+  .center {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+#mobile-navbar {
+  bottom: 0;
+  background-color: $navyColor;
+
+  .row {
+    .left,
+    .right {
+      // left and right mobile navbar section
+      justify-content: center;
+      display: flex;
+    }
+    .center {
+      // center mobile navbar section
+      justify-content: center;
+      display: flex;
+      position: relative;
+    }
+  }
+}
+
+.navbar-button {
+  font-size: 1.3rem;
+  border: none;
+  color: $navbarButtonColor;
+  background-color: inherit !important;
+
+  &:hover {
+    color: $navyColor;
+    font-size: 1.4rem;
+    transition: color linear 0.3s;
+  }
+}
+
+#dropdown-menu-align-end {
+  border: none;
+  color: $navbarButtonColor;
+  background-color: inherit;
+
+  &:focus {
+    outline: none !important;
+    outline-offset: none !important;
+    box-shadow: none !important;
+  }
+}
+
+#mobile-navbar-button {
+  position: absolute;
+  bottom: 1rem;
+  background-color: $blueColor;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  border: 0.3rem solid #fff;
+
+  &:focus {
+    outline: none !important;
+    outline-offset: none !important;
+    box-shadow: none !important;
+  }
+}
